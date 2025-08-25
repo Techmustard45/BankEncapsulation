@@ -8,6 +8,8 @@
             
             myAccount.Deposit(987);
             Console.WriteLine(myAccount.GetBalance());
+            myAccount.Deposit(1000);
+            Console.WriteLine(myAccount.GetBalance());
         }
     }
 }
